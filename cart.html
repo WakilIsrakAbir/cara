@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara E-commerce Fashion Shop</title>
+    <script src="https://kit.fontawesome.com/218d7c0b86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <section id="header">
+        <a href="#"><img src="/Images/logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>                
+                <li><a href="shop.html">Shop</a></li>                
+                <li><a href="blog.html">Blog</a></li>                
+                <li><a href="about.html">About</a></li>                
+                <li><a href="contact.html">Contact</a></li> 
+                <li id="lg-bag"><a class="active"  href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li> 
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a> 
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
+    </section>
+
+    <!-- Hero -->
+    <section id="page-header" class="about-header">
+        <h2>#Let's Buy</h2>
+        <p>Dolor sit amet consectetur adipisicing elit. Odit, repudiandae!</p>
+    </section>
+
+    <!-- Cart -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="Images/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="Images/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="Images/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Cart-Add -->
+     <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtottal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotals</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>$355</b></td>
+                </tr>
+            </table>
+            <button class="normal">Procced to checkout</button>
+        </div>
+     </section>
+
+
+    <!-- Footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="/Images/logo.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>315/5 East Nakhalpara,Dhaka,Bangladesh</p>
+            <p><strong>Phone:</strong>+880 1849 846805</p>
+            <p><strong>Hours:</strong>10.00-18.00 Sat-Wed</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">Viev Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Trac My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Stor or Google Play</p>
+            <div class="row">
+                <img src="/Images/pay/app.jpg" alt="AppStor">
+                <img src="/Images/pay/play.jpg" alt="GooglePay">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="/Images/pay/pay.png" alt="pay">
+        </div>
+        <div class="copyright">
+            <p>©2025 Wakil Israk Abir</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
